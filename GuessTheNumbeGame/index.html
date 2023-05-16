@@ -1,1 +1,37 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number game</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+</head>
+
+<body style="font-family: 'Reggae One', cursive;">
+
+    <div class="h-[100vh] bg-blue-900 flex justify-around items-center">
+     <div class="left rounded-2xl overflow-hidden invisible">
+        <img src="https://media.giphy.com/media/fxsqOYnIMEefC/giphy.gif" width="400px"  alt="">
+     </div>
+        <div class="middle flex flex-col  items-center space-y-12">
+        <h4 class="md:text-5xl  text-2xl text-orange-400 font-bold ">
+            Guess my Number Game
+          </h4>
+        <p  id="paraf" class="para md:text-3xl  text-2xl text-orange-300 md:font-semibold">Guess a Number between 1 and 20</p>
+        <input type="number" class="inputbox rounded-2xl bg-transparent border-4 border-white text-4xl px-4 py-4 w-32 font-bold text-black bg-zinc-200 focus:text-black">
+    <button class="btn font-bold md:px-48 px-10 py-2 text-2xl border-2 border-zinc-200 bg-orange-500 rounded-xl focus:bg-orange-700 ">GUESS</button>
+    <p class="results text-zinc-200 text-5xl">Enter the number</p>
+    <button class="rela  hidden  font-bold  px-8 py-1 text-2xl border-2 border-zinc-200 bg-orange-500 rounded-xl  ">⟳Replay</button>
+     </div>
+<div class="right rounded-2xl overflow-hidden invisible">
+    <img src="https://media.giphy.com/media/7rj2ZgttvgomY/giphy.gif" width="350px"  alt="">
+</div>
+
+
+<!-- <img src="https://media.giphy.com/media/xT8qBepJQzUjXpeWU8/giphy.gif" width="300px" alt=""> -->
+<script src="script.js"></script>
+</body>
+</html>
